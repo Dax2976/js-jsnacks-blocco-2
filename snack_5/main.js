@@ -13,7 +13,11 @@ let number2 = [1,2,3]
 for( i = 0; i < number.length; i++){
     if(number2.length != number.length){
         number2.push(Math.floor(Math.random()*100))
+    } 
+    else if(number.length != number2.length){
+        number.push(Math.floor(Math.random()*100))
     }
+       
 }
 
 console.log(number)
@@ -30,6 +34,9 @@ while( i < number.length){
     if(number2.length != number.length){
         number2.push(Math.floor(Math.random()*100))
     }
+    else if(number.length != number2.length){
+        number.push(Math.floor(Math.random()*100))
+    }   
 
     i++
 }
